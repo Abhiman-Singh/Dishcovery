@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master  # Make sure to use 'main' if that's your default branch
+      - main  # Make sure to use 'main' if that's your default branch
 
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-22.04  # Use the same version as the build job
-    if: github.ref == 'refs/heads/master'  # Ensure it runs only for the 'master' branch
+    if: github.ref == 'refs/heads/main'  # Ensure it runs only for the 'master' branch
 
     steps:
       - name: Download artifact
