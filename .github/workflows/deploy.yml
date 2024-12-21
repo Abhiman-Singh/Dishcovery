@@ -3,12 +3,12 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - master  # Make sure to use 'main' if that's your default branch
 
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Specify a specific version of the Ubuntu runner to avoid future issues
 
     steps:
       - name: Checkout repo
@@ -16,9 +16,11 @@ jobs:
 
       - name: Setup Node
         uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # Specify the version of Node.js you are using (adjust as needed)
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build project
         run: npm run build
@@ -32,8 +34,8 @@ jobs:
   deploy:
     name: Deploy
     needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-22.04  # Use the same version as the build job
+    if: github.ref == 'refs/heads/master'  # Ensure it runs only for the 'master' branch
 
     steps:
       - name: Download artifact
@@ -43,7 +45,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./dist  # Adjust this if your build output is in a different folder (e.g., build or docs)
