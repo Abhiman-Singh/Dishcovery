@@ -1,5 +1,5 @@
-#Dishcovery
-Recipe Finder App
+# Dishcovery
+ Recipe Finder App
 
 ## Overview
 The Recipe Finder App is a web application designed to help users discover and explore new recipes. With features such as recipe search, recommendations, and the ability to favorite recipes, this app makes cooking more enjoyable and convenient. The app integrates with the Edamam API to fetch recipe data and YouTube for recipe tutorials. Authentication is handled through Clerk, ensuring a seamless and secure user experience. User data, including favorite recipes, is stored in Firebase.
@@ -9,13 +9,13 @@ The Recipe Finder App is a web application designed to help users discover and e
 - **Search Recipes:** Use the search bar to find recipes based on ingredients or keywords.
 - **Recommended Recipes:** Explore curated recipe suggestions on the home page.
 - **Favorite Recipes:** Save your favorite recipes for quick access,stored in Firebase.
-- **YouTube Integration:** Redirect to YouTube videos for detailed recipe tutorials.
+- **YouTube Integration:** Redirect to YouTube videos for detailed recipe tutorials using the YouTube API.
 - **User Authentication:** Secure login and signup using Clerk.
 - **Navigation Bar(Post Login):** Access Home, Favorites, Profile, and Logout options after logging in.
 
 ## Tech Stack
 - **Frontend:** React, JavaScript, Vite, Tailwind CSS
-- **API Integration:** Edamam API for recipes, YouTube for video tutorials
+- **API Integration:** Edamam API for recipes, YouTube API for video tutorials
 - **Authentication:** Clerk
 - **Database:** Firebase for storing favorite recipes
 - **Hosting:** Vercel for hosting the application
@@ -45,3 +45,26 @@ The Recipe Finder App is a web application designed to help users discover and e
   VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
   VITE_FIREBASE_APP_ID=your_firebase_app_id
 5. Start the development server:
+   ```bash
+   npm run dev
+6. Open the app in your browser at:
+   ```bash
+   http://localhost:5173
+   
+## Usage
+
+- **Landing Page:** Navigate through sections like Home, About Us, Features, Contact Us, Login, and Sign Up.
+- **Search Recipes:** After logging in, enter a keyword or ingredient in the search bar to find recipes.
+- **Explore Recommendations:** Scroll through the home page to view recommended recipes.
+- **Favorite Recipes:** Click the favorite icon on recipe cards to save them to Firebase
+- **Watch Tutorials:** Click on a recipe card to redirect to its YouTube tutorial using the YouTube API.
+- **Navigate:** Use the navigation bar (after login) to access Home, Favorites, Profile, and Logout.
+
+## Dependencies
+- **React:** Framework for building the user interface.
+- **Vite:** Build tool for development and production.
+- **Tailwind CSS:** For styling the app.
+- **Clerk:** User authentication.
+- **Edamam API:** Recipe data source.
+- **YouTube API:** For fetching video tutorials related to recipes.
+- **Firebase:** For storing favorite recipes.
