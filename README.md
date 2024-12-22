@@ -18,11 +18,11 @@ The Recipe Finder App is a web application designed to help users discover and e
 ## Screenshots
 
 <img src="https://github.com/Abhiman-Singh/Dishcovery/blob/56f83d02e0ae8638406f1ec2c2a4079615f6fd32/screenshots/Landing%20Page.png"  style="margin-right: 40px">
-<!-- <img src="https://github.com/Abhiman-Singh/News-App/blob/my-new-branch/screenshots/Full News Article.png" width="236" height="500" style="margin-right: 40px">
-<img src="https://github.com/Abhiman-Singh/News-App/blob/my-new-branch/screenshots/HomeScreen Dark.jpg" width="236" height="500" style="margin-right: 40px">
-<img src="https://github.com/Abhiman-Singh/News-App/blob/my-new-branch/screenshots/HomeScreen.png" width="236" height="500" style="margin-right: 40px">
-<img src="https://github.com/Abhiman-Singh/News-App/blob/my-new-branch/screenshots/News Sections.png" width="236" height="500" style="margin-right: 40px">
-<img src="https://github.com/Abhiman-Singh/News-App/blob/my-new-branch/screenshots/Saved News Screen.jpg" width="236" height="500" style="margin-right: 40px"> -->
+<img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/Popular%20categories.png" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/LogIn.png" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/HomePage.png" style="margin-right: 40px">
+
+
 
 
 ## Tech Stack
