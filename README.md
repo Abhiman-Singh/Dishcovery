@@ -1,6 +1,8 @@
 # Dishcovery
  Recipe Finder App
 
+## Link
+- https://dishcovery-blush.vercel.app/
 ## Overview
 The Recipe Finder App is a web application designed to help users discover and explore new recipes. With features such as recipe search, recommendations, and the ability to favorite recipes, this app makes cooking more enjoyable and convenient. The app integrates with the Edamam API to fetch recipe data and YouTube for recipe tutorials. Authentication is handled through Clerk, ensuring a seamless and secure user experience. User data, including favorite recipes, is stored in Firebase.
 
@@ -12,6 +14,8 @@ The Recipe Finder App is a web application designed to help users discover and e
 - **YouTube Integration:** Redirect to YouTube videos for detailed recipe tutorials using the YouTube API.
 - **User Authentication:** Secure login and signup using Clerk.
 - **Navigation Bar(Post Login):** Access Home, Favorites, Profile, and Logout options after logging in.
+
+## Screenshots
 
 ## Tech Stack
 - **Frontend:** React, JavaScript, Vite, Tailwind CSS
