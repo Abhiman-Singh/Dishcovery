@@ -22,8 +22,9 @@ The Recipe Finder App is a web application designed to help users discover and e
 <img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/Aboutus.png" style="margin-right: 40px">
 <img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/Features.png" style="margin-right: 40px">
 <img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/LogIn.png" style="margin-right: 40px">
-<img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/LogIn.png" style="margin-right: 40px">
 <img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/HomePage.png" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/Recipe%20Detail.png" style="margin-right: 40px">
+<img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/Youtube%20video.png" style="margin-right: 40px">
 <img src="https://github.com/Abhiman-Singh/Dishcovery/blob/1f64f3b358910aeb5280f2d09fe0d6279e7974dc/screenshots/Favorite.png" style="margin-right: 40px">
 
 
