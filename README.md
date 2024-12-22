@@ -1,5 +1,5 @@
 
-## Dishcovery
+# Dishcovery
 Recipe-Finder
 ======================================================================
 # React + Vite
