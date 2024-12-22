@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Dishcovery/",
+  // base: '/Dishcovery/',
   build: {
     rollupOptions: {
       external: ['@clerk/clerk-react', 'firebase/firestore', 'react-icons/fa'],
